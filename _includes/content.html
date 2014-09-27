@@ -1,0 +1,128 @@
+<main class="site-content">
+
+	<!-- About content loads first -->
+	<article class="about-content">
+		<h2 class="wow fadeIn">About this Course</h2>  
+		{% for aboutrow in site.data.settings.aboutrows %}
+		<div class="content-row wow fadeIn">   
+			<div class="content-column">
+				{{ aboutrow.title }}
+			</div>
+			<div class="content-column">
+				{{ aboutrow.desc }}
+			</div>
+		</div>
+		{% endfor %}
+	</article>
+
+	<!-- Hidden by default until user clicks on "Topics" from menu -->
+	<article class="topics-content">
+		<h2 class="wow fadeIn">Topics</h2>
+		{% for topicsrow in site.data.settings.topicsrows %}
+		<div class="content-row wow fadeIn">
+			<div class="content-column">
+				{{ topicsrow.title }}
+			</div>
+			<div class="content-column">
+				{{ topicsrow.desc }}
+			</div>
+		</div>
+		{% endfor %}
+	</article>
+
+	<!-- Hidden by default until user clicks on "Format" from menu -->
+	<article class="teaching-format-content">
+		<h2 class="wow fadeIn">Teaching Format</h2>
+		{% for teachingformatrow in site.data.settings.teachingformatrows %}
+		<div class="content-row wow fadeIn">   
+			<div class="content-column">
+				{{ teachingformatrow.title }}
+			</div>
+			<div class="content-column">
+				{{ teachingformatrow.desc }}
+			</div>
+		</div>
+		{% endfor %}
+	</article>
+
+	<!-- Hidden by default until user clicks on "Policy" from menu -->
+	<article class="policy-content">
+		<h2 class="wow fadeIn">Policy</h2>
+		{% for policyrow in site.data.settings.policyrows %}
+		<div class="content-row wow fadeIn">   
+			<div class="content-column">
+				{{ policyrow.title }}
+			</div>
+			<div class="content-column">
+				{{ policyrow.desc }}
+			</div>
+		</div>
+		{% endfor %}
+	</article>
+
+	<!-- Hidden by default until user clicks on "Professor" from menu -->
+	<article class="professor-schedule-content">
+		<h2 class="wow fadeIn">Professor Schedule -- Fall 2014</h2>
+		<div class="professor-vitals">
+			<h3 class="wow fadeIn"><i class="fa fa-user"></i>&nbsp;&nbsp;Professor Vitals</h3>
+			{% for professorvital in site.data.settings.professorvitals %}
+			<div class="content-row wow fadeIn">   
+				<div class="content-column">
+					{{ professorvital.title }}
+				</div>
+				<div class="content-column">
+					{{ professorvital.desc }}
+				</div>
+			</div>
+			{% endfor %}
+		</div>
+		<div class="professor-courses">
+			<h3 class="wow fadeIn"><i class="fa fa-book"></i>&nbsp;&nbsp;Courses Taught</h3>
+			{% for professorcourse in site.data.settings.professorcourses %}
+			<div class="content-row wow fadeIn">   
+				<div class="content-column">
+					{{ professorcourse.title }}
+				</div>
+				<div class="content-column">
+					{{ professorcourse.desc }}
+				</div>
+			</div>
+			{% endfor %}
+		</div>
+		<div class="professor-daily-schedule">
+			<h3 class="wow fadeIn"><i class="fa fa-calendar"></i>&nbsp;&nbsp;Professor Daily Schedule</h3>
+			{% for professorschedule in site.data.settings.professorschedule %}
+			<div class="content-row wow fadeIn">   
+				<div class="content-column">
+					{{ professorschedule.day }}
+				</div>
+				<div class="content-column">
+					{{ professorschedule.block }}
+				</div>
+			</div>
+			{% endfor %}
+		</div>
+		<div class="professor-other-contacts">
+			<h3 class="wow fadeIn"><i class="fa fa-users"></i>&nbsp;&nbsp;Secondary Contacts</h3>
+			{% for professorcontact in site.data.settings.professorcontacts %}
+			<div class="content-row wow fadeIn">   
+				<div class="content-column">
+					{{ professorcontact.name }}
+				</div>
+				<div class="content-column">
+					{{ professorcontact.info }}
+				</div>
+			</div>
+			{% endfor %}
+		</div>
+	</article>
+
+</main>
+
+
+
+
+
+
+
+

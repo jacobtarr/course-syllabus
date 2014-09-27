@@ -1,0 +1,20 @@
+# -------------------------------
+# Build settings
+# -------------------------------
+markdown: kramdown
+permalink: pretty
+sass:
+  sass_dir: stylesheets
+  style: :expanded
+
+
+
+
+
+
+
+
+
+
+
+

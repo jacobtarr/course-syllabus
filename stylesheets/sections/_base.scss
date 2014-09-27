@@ -1,0 +1,52 @@
+/* Layout
+=============================== */
+
+* {
+	@include box-sizing(border-box);
+}
+
+html {
+	height: 100%;
+	font-family: sans-serif;
+}
+
+body {
+	font-family: "Karla", sans-serif;
+	color: #555;
+	font-size: 18px;
+	line-height: 1.4;
+	height: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 700;
+	font-family: "Roboto Slab", serif;
+	margin: 20px 0;
+}
+
+h1 { font-size: 40px; }
+h2 { font-size: 36px; }
+h3 { font-size: 32px; }
+h4 { font-size: 28px; }
+h5 { font-size: 24px; }
+h6 { font-size: 20px; }
+p { font-size: 16px; }
+
+a {
+	text-decoration: none;
+	outline: none;
+	&:hover {
+		@include transition-duration(.3s);
+	}
+	&:hover, &:focus {
+		text-decoration: none;
+	}
+}
+
+button, input, textarea {
+	outline: none;
+}
+
+
+
+

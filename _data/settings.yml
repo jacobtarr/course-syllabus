@@ -1,0 +1,261 @@
+# -------------------------------
+# Site settings
+# -------------------------------
+title: Gannon Syllabus
+email: your-email@domain.com
+description: "A detailed overview of the course"
+baseurl: ""
+url: ""
+
+# -------------------------------
+# Bottom Header Links
+# -------------------------------
+
+menuitems:
+- {
+	class: 'about',
+	name: 'About'
+}
+- {
+	class: 'topics',
+	name: 'Topics'
+}
+- {
+	class: 'format',
+	name: 'Format'
+}
+- {
+	class: 'policy',
+	name: 'Policy'
+}
+- {
+	class: 'professor',
+	name: 'Professor'
+}
+
+# -------------------------------
+# About Content Rows
+# -------------------------------
+
+aboutrows:
+- {
+	title: 'Instructor', 
+    desc: '<figure class="instructor-img-holder"><img src="../img/global/cannell.png" alt="cannell"></figure><ul class="instructor-info"><li>Mr. Cannell</li><li>cannell003@gannon.edu</li></ul>'
+}
+- {
+	title: 'Course Info',
+	desc: '<ul><li>Prerequisites: CIS216 / CIS255</li><li>Credits: 3</li><li>Class Times - Z335: TTh 09:30am-10:50pm</li></ul>'
+}
+- {
+	title: 'Course Description',
+	desc: 'This course emphasizes the development of database systems and their application in multi-tiered systems. The student develops desktop and web-based database applications. Typical coverage includes event-driven programming.'
+}
+- {
+	title: 'Course Objectives',
+	desc: '<ul><li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li><li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li><li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li></ul>'
+}
+- {
+	title: 'Required Materials',
+	desc: '<ul><li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li><li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li><li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li></ul>'
+}
+- {
+	title: 'Assessment Methods',
+	desc: '<ul><li>Assignments</li><li>Tests</li><li>Quizzes</li></ul>'
+}
+- {
+	title: 'Grading Policy',
+	desc: '<ul><li>Mid-Term 1: 20%</li><li>Mid-Term 2: 20%</li><li>Assignments-Quiz: 10%</li><li>Attendance: 15%</li><li>Project: 15%</li><li>Final: 20%</li></ul>'
+}
+- {
+	title: 'Grading Scale',
+	desc: '<ul class="grading-scale-list"><li>Undergraduates</li><li>A : 90 ~ 100</li><li>B+ : 85 ~ 89</li><li>B : 80 ~ 84</li><li>C+ : 75 ~ 79</li><li>C : 70 ~ 74</li><li>D : 60 ~ 69</li><li>F : 0 ~ 59</li></ul><ul class="grading-scale-list"><li>Graduates</li><li>A+ : 95 ~ 100</li><li>A : 90 ~ 94</li><li>A- : 87 ~ 89</li><li>B+ : 83 ~ 86</li><li>B : 80 ~ 82</li><li>B- : 77 ~ 79</li><li>C+ : 73 ~ 76</li><li>C : 70 ~ 72</li></ul>'
+}
+
+# -------------------------------
+# Topics Content Rows
+# -------------------------------
+
+topicsrows:
+- {
+	title: 'Week 1',
+	desc: '<ul><li>Ornare Fusce Adipiscing Aenean Venenatis</li><li>Mattis Cursus Nullam</li><li>Tristique Malesuada Tristique Malesuada</li></ul>'
+}
+- {
+	title: 'Week 2',
+	desc: '<ul><li>Ornare Fusce Adipiscing Aenean Venenatis</li><li>Mattis Cursus Nullam</li><li>Tristique Malesuada Tristique Malesuada</li></ul>'
+}
+- {
+	title: 'Week 3',
+	desc: '<ul><li>Ornare Fusce Adipiscing Aenean Venenatis</li><li>Mattis Cursus Nullam</li><li>Tristique Malesuada Tristique Malesuada</li></ul>'
+}
+- {
+	title: 'Week 4',
+	desc: '<ul><li>Ornare Fusce Adipiscing Aenean Venenatis</li><li>Mattis Cursus Nullam</li><li>Tristique Malesuada Tristique Malesuada</li></ul>'
+}
+- {
+	title: 'Week 5',
+	desc: '<ul><li>Ornare Fusce Adipiscing Aenean Venenatis</li><li>Mattis Cursus Nullam</li><li>Tristique Malesuada Tristique Malesuada</li></ul>'
+}
+- {
+	title: 'Week 6',
+	desc: '<ul><li>Ornare Fusce Adipiscing Aenean Venenatis</li><li>Mattis Cursus Nullam</li><li>Tristique Malesuada Tristique Malesuada</li></ul>'
+}
+
+# -------------------------------
+# Teaching Format Content Rows
+# -------------------------------
+
+teachingformatrows:
+- {
+	title: 'Moodle Login',
+	desc: '<ul><li>Each student has an account on the Moodle-VLE.</li><li>The username is the same as that used to login to the Gannon network.</li><li>The user password for the first time login is the 7 digit Gannon ID provided on GUXpress.</li><li>The Gannon ID is also on your ID card but may follow several digits and consists of the 7 digits which precede a 01 or 02 -> (e.g. Id&#35;123456701.)</li><li>If you are not sure of your Gannon ID - please request the assistance of your instructor.</li><li>When you log in you will be prompted to enter your current password (Gannon ID) and create a new one.</li><li>Alternatively, simply enter your username (same as for the Gannon Network) and click on the "forgotten password" link.</li><li>You will receive an email providing instructions to create a password.</li></ul>'
+}
+- {
+	title: 'MySQL Login',
+	desc: '<ul><li>Each student has a database account on the remote MySQL server hosted on pendragon.</li><li>The username is the same as that used to login to the Gannon network.</li><li>The user password to log in is the 7 digit Gannon ID provided on GUXpress (e.g -> 1234567).</li><li>Instructions on how to log in to the remote MySQL Server are provided on the Moodle-VLE and will be explained in class by the instructor</li></ul>'
+}
+- {
+	title: 'FTP Login',
+	desc: '<ul><li>Each student has a website hosted on pendragon which is accessible via FTP for the upload of web pages.</li><li>The username is the same as that used to login to the Gannon network.</li><li>The user password to log in is the 7 digit Gannon ID provided on GUXpress prefixed by Id (e.g -> Id&#35;1234567)</li><li>The FTP console is integrated into the HTML-PHP editor used to develop web pages -> Coffee Cup Software - HTML Editor</li></ul>'
+}
+- {
+	title: 'IGCA',
+	desc: '<ul><li>Instructor Guided Class Assignment.</li><li>As the instructor demonstrates a concept using the development software you will follow along using the same software on the lab computers.</li><li>Before the end of the class you are required to upload your work up to the remote website on pendragon.</li></ul>'
+}
+
+# -------------------------------
+# Policy Content Rows
+# -------------------------------
+
+policyrows:
+- {
+	title: 'Attendance',
+	desc: 'It is usually the case that those students who attend class on a regular basis perform better in a course than those students who miss several classes. Ipso facto, and, given the fast paced nature of this course, ATTENDANCE IS MANDATORY.<br>The following activities are STRICTLY FORBIDDEN:<ul><li>Instant Messaging</li><li>Cell Phone communication - texting or otherwise</li><li>Internet Surfing without authorization from the instructor</li><li>Wearing headphones</li></ul>Should you so choose to indulge in any of the aforementioned activities, you will be marked absent for the day.Should you become an annoyance to other members of the class, you will be asked to leave the classroom. Be aware that the NetSupport Software enables the instructor to view all activity on YOUR computer monitor.'
+}
+- {
+	title: 'Participation',
+	desc: 'Active participation in course meetings is expected of all students. Ask questions, answer questions - ENGAGE. The teaching format will include instructor guided assignments on the computer. The student will be using a software system that enables the submission of work in progress to a dedicated server. Failure to submit such instructor guided assignments at the end of the class period may be interpreted as a failure to participate, incurring, not only a zero for the assignment, but a zero for attendance.'
+}
+- {
+	title: 'Assignments',
+	desc: 'All work must be submitted on the assigned DUE DATE by the BEGINNING of class. Assignments shall be submitted via - MOODLE VIRTUAL LEARNING ENVIRONMENT. Instructor guided class assignments shall be uploaded in real time via FTP which is integral to the development software used in the classroom.'
+}
+- {
+	title: 'Make-Up Policy',
+	desc: '<ul><li>Students are expected to take exams on the scheduled dates and to submit assignments according to their due dates.</li><li>Emergencies do happen. If the emergency is not life-threatening, then I expect to be notified in advance of the class period when the work or exam was expected. Contact information has been provided.</li><li>Job schedules, weddings, interviews, meetings, appointments or any activity not sanctioned by the university do not comprise an emergency. Plan your social and employment activities around class, not vice versa.</li><li>If the situation does warrant a make-up exam or assignment, the content of the make-up exam will be in the spirit of the class-shared one, but the format may be different.</li><li>A doctor&#39;s written verification of illness is to be provided before scheduling the make-up work.</li></ul>'
+}
+- {
+	title: 'Preparation',
+	desc: '<ul><li>Assigned reading material should be located and read prior to class in order to facilitate learning.</li><li>You are responsible for the contents of the textbook and any supplemental materials unless I waive the material.</li><li>Do not procrastinate on doing the assignments. Mishaps, problems, and unavailability of the equipment do happen. These are risks, that you are expected to manage successfully.</li><li>Ask questions when something is not understood in the class or from the reading.</li></ul>'
+}
+- {
+	title: 'Academic Integrity',
+	desc: '<ol><li>Cheating on any examination, quiz, or graded assignment will be, in the first instance, cause for a failing grade on the document. Upon a second occurrence, a failing grade for the course will be given, at least.</li><li>Depending upon the severity of the situation, further action may be pursued.</li><li>This policy applies to the individual(s) receiving the information as well as to individual(s) supplying the information.</li><li>Talking over your ideas and getting comments about your logic or your errors are not forms of cheating.</li><li>Plagiarism in all of its manifestations is a breach of academic integrity. The student will be penalized as described above.</li><li>Having other individuals write or code or model sections of your work, copying and editing others&#39; work or code, or collaborating together to get a &#39;consensus&#39; product for an assignment are examples of cheating.</li><li>If ever you are in doubt as to whether I will perceive the assistance you give a student as an instance of cheating, then ask me first about it.</li><li>According to the Undergraduate Catalog: 2013-2014, (p. 48 and following):<blockquote><q>Absolute integrity is expected of every Gannon student in all academic undertakings; the student must in no way misrepresent his/her work, fraudulently or unfairly advance his/her academic status, or be a party to another student&#39;s failure to maintain integrity.</q></blockquote></li><li>Please check pages 48-51 in the undergraduate catalog to see further details concerning forms of academic dishonesty.</li></ol>'
+}
+
+# -------------------------------
+# Professor Schedule Content
+# -------------------------------
+
+professorvitals:
+- {
+	title: 'Name',
+	desc: 'Mei-Huei Tang, PhD.'
+}
+- {
+	title: 'Telephone',
+	desc: '814-871-5393'
+}
+- {
+	title: 'Office',
+	desc: 'Zurn 309'
+}
+- {
+	title: 'Department',
+	desc: 'Computer & Information Science'
+}
+- {
+	title: 'E-mail',
+	desc: 'tang002@gannon.edu'
+}
+
+professorcourses:
+- {
+	title: 'CIS 355',
+	desc: 'Systems Analysis & Design'
+}
+- {
+	title: 'GCIS 867',
+	desc: 'Super Duper Hard Class'
+}
+- {
+	title: 'GCIS 599',
+	desc: 'How to be a Clown'
+}
+- {
+	title: 'GCIS 321',
+	desc: 'MS Paint 101'
+}
+- {
+	title: 'CIS 999',
+	desc: 'Fingerpainting and Crafts'
+}
+
+professorschedule:
+- {
+	day: 'Monday',
+	block: '<ul><li>9:05 - 10:00 a.m. -- CIS 335</li><li>12:30 - 2:30 p.m. -- CIS Faculty</li><li>2:30 - 3:30 p.m. -- <span>OFFICE HOURS</span></li></ul>'
+}
+- {
+	day: 'Tuesday',
+	block: '<ul><li>10:00 - 11:00 a.m. -- Meeting with Aliens</li><li>12:00 - 2:00 p.m. -- <span>OFFICE HOURS</span></li><li>2:30 - 3:30 p.m. -- Reading "The Great Gatsby"</li></ul>'
+}
+- {
+	day: 'Wednesday',
+	block: '<ul><li>9:05 - 10:00 p.m. -- Yoga Classes</li><li>10:00 - 11:00 a.m. -- <span>OFFICE HOURS</span></li><li>12:00 - 12:59 p.m. -- CIS Staff Meeting</li><li>7:00 - 8:00 p.m. -- Sacrifice Rituals</li></ul>'
+}
+- {
+	day: 'Thursday',
+	block: '<ul><li>10:00 - 12:00 p.m. -- <span>OFFICE HOURS</span></li><li>12:00 - 2:00 p.m. -- GCIS 799</li></ul>'
+}
+- {
+	day: 'Friday',
+	block: '<ul><li>9:05 - 10:00 a.m. -- CIS 335</li><li>10:00 - 12:00 p.m. -- GCIS 697/698</li></ul>'
+}
+
+professorcontacts:
+- {
+	name: 'Amy Farrar',
+	info: '<ul><li>Title: CIS Secretary</li><li>Telephone: 871-7738</li><li>Room: Zurn 311</li></ul>'
+}
+- {
+	name: 'William L. Scheller II, PhD.',
+	info: '<ul><li>Title: CEB Dean</li><li>Telephone: 871-7912</li><li>Room: Zurn 321</li></ul>'
+}
+- {
+	name: 'Carolyn Masters, PhD.',
+	info: '<ul><li>Title: Provost & Vice President for Academic Affairs</li><li>Telephone: 871-7568</li><li>Room: Old Main 204</li></ul>'
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
